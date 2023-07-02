@@ -1,0 +1,10 @@
+services:
+  - name: backend
+    buildCommand: npm install && npm run build
+    directory: ./Server
+    serviceRoot: /
+
+  - name: frontend
+    buildCommand: npm install && npm run build
+    directory: ./Client
+    serviceRoot: /
