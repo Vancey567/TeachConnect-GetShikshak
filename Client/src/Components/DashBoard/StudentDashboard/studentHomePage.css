@@ -1,0 +1,365 @@
+#home-page-root-div{
+    display: flex;
+    /* background-color: paleturquoise; */
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+}
+
+#student-home-page-details-div{
+    position: relative;
+    width: 100%;
+    margin-right: 5px;
+    /* background-color: gray; */
+}
+
+.row-div{
+    /* background-color:lightgray; */
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin: 0px; */
+}
+
+#class-request-listing-div{
+    /* background-color: aqua;   */
+    width: 100%;
+}
+
+#last-row{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#student-page-class-request-div-heading{
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    /* padding: 0px 0px; */
+    /* border-bottom: 1px solid lightgray; */
+}
+
+#welcome-greeting-div{
+    position: relative;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightblue; */
+    width: fit-content;
+    padding: 20px 30px;
+}
+
+#verified-tag{
+    /* position:absolute;
+    top:0px;
+    right: 0px; */
+    font-size: 20px;
+    margin-left:5px;
+    padding-top: 3px;
+    /* background-color: rgb(165, 58, 58); */
+}
+
+#welcome-greeting-div > #user-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+    font-size:25px;
+    /* width: max-content; */
+
+    /* font-weight:lighter; */
+}
+
+#tutor-home-page-waving-hand{
+    margin-left: 10px;
+    color:rgb(190, 127, 8);
+    /* color: rgb(138, 85, 15); */
+    transform: rotateY(200deg);
+}
+
+.margin-buttom-div{
+    margin-bottom: 10px;
+}
+
+#crosss-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cursor-type-pointer{
+    cursor: pointer;
+}
+
+.display-type-flex{
+    display: flex;
+}
+
+#student-profile-div{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.student-profilePic{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit:cover;
+    /* margin: 0px; */
+    /* border:1px solid gray; */
+}
+
+#request-details-div{
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#requested-subjects-div{
+    width:400px;
+    max-height: 400px;
+}
+
+#requested-subjects{
+    flex-wrap: wrap;
+    max-height: 80px;
+    overflow-y: auto;
+}
+
+#requested-mode-div{
+    width: 250px;
+}
+
+#requested-modes{
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.requested-subject-span{
+    padding: 5px;
+    background-color: rgb(235, 233, 233) ;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.flex-wrap-class{
+    flex-wrap: wrap;
+}
+
+#request-content{
+    /* background-color: aquamarine; */
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+#content-of-request-div{
+    width: 80%;
+}
+
+#class-options{
+    
+    justify-content: flex-end;
+    /* background-color: aqua; */
+}
+
+#accept-reject-div{
+    /* background-color: gray; */
+    justify-content: flex-end;
+}
+
+#accept-button{
+    background-color: rgb(79, 204, 79);
+}
+
+.accept-reject-button{
+    font-weight: bold;
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: orange;
+    margin-right: 10px;
+}
+
+.accept-reject-button:hover{
+    /* border:2px solid black; */
+    box-shadow: 0px 2px 5px 0px gray;
+}
+
+.accept-reject-button:active{
+    box-shadow: none;
+}
+
+.request-content-sub-div{
+    width: 100%;
+    padding: 10px;
+}
+
+/* #content-heading{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+
+#class-options{
+    
+}
+
+.width-100{
+    width: 100%;
+}
+
+
+.label-span{
+    /* font-size: medium; */
+    font-weight:bold;
+    color: gray;
+
+}
+
+.content-span{
+    padding-left: 10px;
+}
+
+.content-li{
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+#rate-div{
+    width: 200px;
+}
+
+#teaching-mode-div{
+    width: 200px;
+}
+
+#rating-div{
+    width: 120px;
+    /* height: fit-content; */
+    /* background-color:lightgreen; */
+    /* background-color: rgb(59, 58, 58); */
+}
+
+#rate-display-div{
+    height: 70%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+}
+
+#rate{
+    /* background-color: aquamarine; */
+    width:90px;
+    height: 40px;
+    padding: 0px 5px;
+    font-size: large;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#rating-outer-div{
+    /* border: 1px solid lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 100%;
+    font-size: medium;
+}
+
+#rating-label-div{
+    width: 100%;
+    text-align: center;
+    /* background-color: lightgray; */
+    /* color:white; */
+    /* border-bottom: 1px solid black; */
+    padding: 10px 0px;
+    /* border-radius: 4px; */
+    /* font-weight: bold; */
+    /* font-size: medium; */
+}
+
+#user-rating-tag{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: rgb(58, 56, 56); */
+    background-color: rgb(95, 95, 95);
+    color: white;
+    width: 100%;
+    /* padding: 0px 20px; */
+    font-size:x-large;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    /* border: 1px solid red; */
+    /* visibility: hidden; */
+}
+
+.star{
+    color: yellow;
+}
+
+.edit-button-div{
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+
+
+#language-div{
+    width: 200px;
+}
+
+#subjects-div{
+    width: 200px;
+}
+
+.textarea-input-box{
+    /* border: 1px solid red; */
+
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 5px 5px;
+}
+
+.textarea-input-box:disabled{
+    border: none;
+}
+
+.textarea-input-box:focus{
+
+}
+
+/* .dashboard-input-box:focus{
+    
+} */
+
+#second-row{
+    /* background-color: gray; */
+    /* height: 200px; */
+}
+
+#home-page-top-sub-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+#student-home-page-first-row-home-page{
+    /* background-color: brown; */
+    justify-content: space-between;
+}

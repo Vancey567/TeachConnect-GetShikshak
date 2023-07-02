@@ -1,0 +1,299 @@
+
+#dashboard-div{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-size: small;
+    /* background-color:burlywood; */
+    /* background-color: rgb(243 244 246); */
+    background-color: rgb(247, 247, 242);
+    /* background-color: white; */
+}
+
+.dashboard-sub-div{
+    /* height: 100%; */
+    /* border: 1px solid red; */
+}
+
+#dashboard-left-sub-div{
+    width: 16%;   
+    padding: 2px;
+}
+
+.div-heading{
+    position: relative;
+    font-weight: bold;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid darkgray; */
+    background-color: rgb(224, 217, 217);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.sub-container-div{
+    box-shadow: 0px 1px 1px 0px gray;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.content-div{
+    /* background-color: aqua; */
+    padding: 5px 5px;
+    display: flex;
+}
+
+.medium-content-div{
+    overflow-y:auto;
+    /* background-color:cadetblue; */
+}
+
+
+#dashboard-right-sub-div{
+    /* width: 1166px; */
+    /* background-color: rgb(244, 239, 239); */
+    /* margin: 5px; */
+    display: flex;
+    padding: 5px 0px;
+    width: 84%;
+    /* border: 1px solid black; */
+}
+
+#dashboard-left-sub-container-div{
+    /* display: flex; */
+    height:100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px 2px gray; */
+    background-color: #0a4a40;
+    /* background-color:white; */
+}
+
+/* .dashboard-left-row-div{
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    border: 1px solid black;
+} */
+
+#dashboard-profile-section{
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0px;
+    /* background-color:#0a4a40; */
+    /* background-color:#6fb895; */
+    /* background-color: rgb(240, 238, 238); */
+    /* background-color:cadetblue; */
+    /* border: 1px solid black; */
+}
+
+#logo{
+    /* background-color:black; */
+    padding: 20px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* margin-bottom: 30px; */
+}
+
+#dashboard-menu-section{
+    /* background-color:black;  */
+    height:438px; 
+    border-radius: 5px;
+    /* min-height:360px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;  */
+}
+
+#dashboard-menu-top-div{
+    /* background-color:gray; */
+    /* /* flex: 1;    */
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 10%;
+}
+
+#dashboard-menu-bottom-div{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+#profile-pic-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+    /* background-color: black; */
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+#profile-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit:cover;
+    /* margin: 0px; */
+    border:1px solid gray;
+}
+
+#profile-pic{
+    /* background-color:white; */
+    /* background-color: #E37814; */
+    width: 55%;
+    height: 100%;
+    border-radius: 8px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85px;
+    /* padding: 0px; */
+}
+
+#profile-info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* margin-left: 10px; */
+    /* background-color:lightgray; */
+    /* width: 90%; */
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+
+#user-name{
+    font-size: medium;
+    /* margin-bottom: 8px; */
+    /* border: 1px solid black; */
+}
+
+.dashboard-menu-options{
+        /* background-color:rgb(192, 190, 190); */
+        /* background-color: orange; */
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        /* border: 1px solid black; */
+        /* margin-top: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        font-weight:bold;
+        font-size: smaller;
+        letter-spacing: 0.8px;
+        text-transform:uppercase;
+        margin-bottom: 10px;
+}
+
+.dashboard-menu-options:focus{
+    background-color:rgb(56, 124, 56);
+}
+
+.menu-option-label-icon{
+    margin-right: 10px;
+}
+
+.menu-option-label-outer-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+.btn-class{
+    color: black;
+    background-color: orange;
+    /* box-shadow: 0px 2px 2px 1px black; */
+    border-radius: 5px;
+    font-weight:bold;
+    width: 100px;
+    padding: 10px;
+    /* height: 50px; */
+}
+
+.btn-class:hover{
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+.btn-class:active{
+    box-shadow: none;
+}
+
+#dashboard-details-container-div{
+    width: 99.5%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* background-color: green; */
+    /* box-shadow: 0px 0px 2px 0px gray; */
+    border-radius: 5px;
+    /* padding: 10px; */
+}
+
+.control-button{
+    /* background-color: lightgray; */
+    cursor: pointer;
+    font-size:medium;
+    padding: 4px;
+    border-radius: 50%;
+    margin: none;
+}
+
+.control-button:hover{
+    /* background-color: #3ace66; */
+    background-color: rgb(219, 217, 217);
+    /* color: white; */
+}
+
+.edit-button{
+    cursor: pointer;
+    font-size:medium;
+    padding: 5px;
+    border-radius: 20px;
+    margin: none;
+}
+
+#edit-profile-button{
+    position: absolute;
+    right:35px;
+    top:-10px;
+    background-color: lightgray;
+    border-radius: 50%;
+    /* color:white; */
+}
+
+#edit-profile-button:hover{
+    color: black;
+}
+
+.save-button{
+    
+    /* color:green; */
+}
+
+.not-editable{
+    
+}
+

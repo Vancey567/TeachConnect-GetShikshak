@@ -1,0 +1,22 @@
+[
+    { "value": "Guwahati", "label": "Guwahati" },
+    { "value": "Jorhat", "label": "Jorhat" },
+    { "value": "Sivsagar", "label": "Sivsagar" },
+    { "value": "Dibrugarh", "label": "Dibrugarh" },
+    { "value": "Tinsukia", "label": "Tinsukia" },
+    { "value": "Nalbari", "label": "Nalbari" },
+    { "value": "Bongaigaon", "label": "Bongaigaon" },
+    { "value": "Diphu", "label": "Diphu" },
+    { "value": "Silchar", "label": "Silchar" },
+    { "value": "Tezpur", "label": "Tezpur" },
+    { "value": "Goalpara", "label": "Goalpara" },
+    { "value": "Karimganj", "label": "Karimganj" },
+    { "value": "Hailakandi", "label": "Hailakandi" },
+    { "value": "Kokrajhar", "label": "Kokrajhar" },
+    { "value": "Barpeta", "label": "Barpeta" },
+    { "value": "Nagaon", "label": "Nagaon" },
+    { "value": "Lakhimpur", "label": "Lakhimpur" },
+    { "value": "Morigaon", "label": "Morigaon" },
+    { "value": "Dhubri", "label": "Dhubri" },
+    { "value": "Sonitpur", "label": "Sonitpur" }
+]

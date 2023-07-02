@@ -1,0 +1,32 @@
+#date-time-block-div{
+    padding: 0px 10px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* font-weight: bold; */
+    background-color: rgb(116, 151, 136);
+    color: white;
+}
+
+.date-time{
+    padding: 0px 5px;
+    text-align: center;
+}
+
+#date{
+        /* background-color: gray; */
+        margin-bottom: 10px;
+}
+
+#time{
+        /* background-color: lightpink; */
+}
+
+.day-month{
+    text-transform: uppercase;
+}
+
+#time-tag{
+    margin-left: 5px;
+}

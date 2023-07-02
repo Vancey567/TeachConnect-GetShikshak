@@ -1,0 +1,206 @@
+#nav-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    /* box-shadow: 0px 8px 10px -15px #111;     */
+
+    /* width: 100vw; */
+    background-color:white;
+    /* border: 2px solid gray; */
+    height: 10vh;
+    /* color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* visibility: hidden; */
+    /* margin-bottom: 10vh; */
+}
+
+
+#hamburger-icon{
+    margin-right: 30px;
+    cursor: pointer;
+    font-size:x-large;
+    display: none;
+    padding: 7px;
+}
+
+#hamburger-icon:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+
+@media (max-width:800px){
+    .nav-bar{
+        justify-content: space-between;
+    }
+
+    #mid-nav-sub-div{
+        display: none;
+    }
+
+    #right-nav-sub-div{
+        display: none;
+    }
+
+    #hamburger-icon{
+        display: block;
+    }
+}
+
+.nav-sub-div{
+    /* border: 1px solid gray; */
+}
+
+#logo-div{
+    margin-left: 50px;
+}
+
+#mid-nav-sub-div{
+    width: 45%;
+}
+
+#nav-bar-login-option{
+    display:flex;
+}
+
+.nav-button{
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+#sign-up-button{
+    background-color: white;
+    color: #0a4a40;
+}
+
+#hamburger-menu{
+    position: absolute;
+    top:2.8rem;
+    right:2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color:black;
+    /* border: 2px solid black; */
+    min-width: 230px;
+    align-items: center;
+    /* padding: 10px; */
+    visibility: hidden;
+}
+
+.hamburger-list{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* height: 235px; */
+    width: 160px;
+    /* margin-bottom: 10px; */
+    
+}
+
+.hamburger-list >li{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 10rem;
+    padding: 5px 10px 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#bottom-list{
+    margin-top: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.active-button{
+    background-color: dimgray;
+    color:white;
+}
+
+.hamburger-list >li:hover{
+    
+    /* border-bottom: 2px solid #0a4a40; */
+    /* background-color: #0a4a40; */
+    background-color:#0a4a40;
+    color:white;
+}
+
+#active-button:hover{
+    background-color:#0a4a40;
+}
+
+#navbar-logedIn-profile-icon{
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+#navbar-logedIn-profile-icon:focus{
+    border: 3px solid gray;
+}
+
+#navbar-profile-pic{
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-profile-icon-dropDown{
+    position: absolute;
+    top:3.5rem;
+    right:3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color:black;
+    /* border: 2px solid black; */
+    min-width: 210px;
+    align-items: center;
+    /* padding: 10px; */
+    visibility: hidden;
+    z-index: 1;
+}
+
+.profile-icon-dropDown-list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* height: 235px; */
+    min-width: 160px;
+}
+
+.profile-icon-dropDown-list >li{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 10rem;
+    padding: 5px 10px 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.profile-icon-dropDown-list>li:hover{
+    
+    /* border-bottom: 2px solid #0a4a40; */
+    /* background-color: #0a4a40; */
+    background-color:#0a4a40;
+    color:white;
+}
+
+#dropDown-menu-user-name:hover{
+    cursor:default;
+    background-color:whitesmoke;
+    color:black
+}

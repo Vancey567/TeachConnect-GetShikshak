@@ -1,0 +1,43 @@
+#listing-items-root-div{
+    height: 100%;
+    /* background-color: lightgray; */
+    padding: 0px 10px;
+
+}
+
+#list-heading{
+    /* background-color: lightblue; */
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+    text-transform:uppercase;
+}
+
+#li-items{
+    padding: 10px;
+    /* background-color: lightblue; */
+}
+
+#items-list{
+    height: 93%;
+    /* background-color:rgb(223, 197, 172); */
+    padding: 10px;
+}
+
+.listing-page-button{
+    font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color:black;
+}
+
+.listing-page-button:hover{
+    /* border:2px solid black; */
+    box-shadow: 0px 2px 5px 0px gray;
+}
+
+.listing-page-button:active{
+    box-shadow: none;
+}

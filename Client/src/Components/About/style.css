@@ -1,0 +1,8 @@
+#about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightsteelblue;
+    height: 30rem;
+}
+
